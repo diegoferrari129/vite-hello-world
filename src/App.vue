@@ -1,19 +1,21 @@
 <script >
 import AppTitle from './components/AppTitle.vue'
-
+import jumbo from './components/jumbo.vue'
 export default {
   components: {
-    AppTitle
+    AppTitle,
+    jumbo
   }
 }
 </script>
 
 <template>
-<header>
-  <AppTitle />
-</header>
+  <header>
+    <AppTitle />
+    <jumbo />
+  </header>
 </template>
 
 <style scoped>
-
+  
 </style>

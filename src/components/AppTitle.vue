@@ -4,14 +4,20 @@ export default {
 }
 </script>
 
-<template lang="">
+<template>
     <div>
-        <h1>
+        <h1 class="color-red text-center">
             La mia prima app con Vite!
         </h1>
     </div>
 </template>
 
-<style lang="">
+<style scoped>
+    .color-red{
+        color: red;
+    }
 
+    .text-center{
+        text-align: center;
+    }
 </style>
